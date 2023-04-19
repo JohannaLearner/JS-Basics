@@ -1,8 +1,11 @@
 
-var myValue = 1256
-function myEven(myValue) {
-    if (myValue%2 == 0)
-    return true;
+
+
+function myEven(p)
+{
+    if (p%2 === 0)
+    return "even";
     else
-    return false;   
+    return "odd";   
 }
+console.log(myEven(19));
